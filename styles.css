@@ -1,0 +1,52 @@
+
+body{
+    background-color: lightblue;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 26px;
+}
+
+.content{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+#box{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:dimgray;
+    height: 500px;
+    width: 415px;
+    border-radius: 20px;
+}
+
+.screen{
+    background-color: rgb(178, 172, 161);
+    width: 356px;
+    height: 55px;
+    z-index: 100;
+    text-align: end;
+}
+
+.btn{
+    background-color: rgba(51, 67, 67, 0.653);
+    border-radius: 8px;
+    width: 90px;
+    height: 60px;
+    margin: 2px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#clear, #delete{
+    width: 190px;
+    margin-top: 20px;
+}
+
+#delete{
+    background-color:rgba(255, 0, 0, 0.626);
+}
