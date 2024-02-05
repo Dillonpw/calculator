@@ -110,8 +110,8 @@ function performCalculation() {
 
 
 function updateScreen() {
-    screenTop.textContent = prevInput !== '' ? prevInput : ' ';
-    screenBottom.textContent = currentInput !== '' ? currentInput : '0';
+    screenBottom.textContent = prevInput !== '' ? prevInput : ' ';
+    screenTop.textContent = currentInput !== '' ? currentInput : '0';
 }
 
 
