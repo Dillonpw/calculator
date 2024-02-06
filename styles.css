@@ -1,5 +1,4 @@
 body {
-    background-color: lightblue;
     font-family: 'Orbitron', sans-serif;
     font-size: 26px;
 }
@@ -24,7 +23,7 @@ body {
     min-width: 415px;
     border-radius: 20px;
     overscroll-behavior: none;
-    box-shadow: 3px 1px 2px 2px black, 7px 6px 2px 2px dimgray;
+    box-shadow: 3px 1px 2px 2px black;
 }
 
 .screen {
